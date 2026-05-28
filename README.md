@@ -1,100 +1,112 @@
-# # HR Analytics Dashboard | Power BI
+# 📊 HR Analytics Dashboard | Power BI
 
 ## 📌 Project Overview
-This project focuses on analyzing employee attrition trends using HR analytics data and Power BI. 
 
-The objective of this dashboard is to identify the key factors contributing to employee attrition and help HR teams make data-driven decisions for better employee retention.
+The HR Analytics Dashboard is an interactive business intelligence project developed using Power BI to analyze employee attrition trends within an organization.
 
----
-
-## 🎯 Problem Statement
-Employee attrition is one of the major challenges faced by organizations. 
-
-This project aims to analyze:
-- Which factors drive attrition
-- Which employee groups are leaving
-- Patterns and trends related to employee turnover
-
-The dashboard provides actionable insights using interactive visualizations and KPIs.
+This project focuses on identifying the major factors affecting employee turnover by analyzing HR data such as employee age, salary, job role, education background, gender, and years at the company. The dashboard provides meaningful insights through KPI cards, charts, and interactive visualizations to support data-driven HR decision-making.
 
 ---
 
-## 🛠 Tools Used
-- Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
+# 🎯 Problem Statement
+
+Employee attrition is one of the major challenges faced by organizations as it impacts productivity, workforce stability, and business growth.
+
+The objective of this project is to:
+
+* Identify the key factors contributing to employee attrition
+* Analyze employee turnover patterns across different departments and job roles
+* Understand the relationship between salary, experience, age, and attrition
+* Provide HR teams with actionable insights for improving employee retention
 
 ---
 
-## 📂 Data Processing & Methodology
-### Data Source
-- HR Analytics CSV Dataset
+# 🛠 Tools & Technologies Used
 
-### Data Cleaning
-- Removed duplicates
-- Handled missing values
-- Fixed inconsistent naming
-- Corrected data types
-
-### Calculations
-- Created Attrition column
-- Calculated Attrition Rate using DAX measures
+* Power BI Desktop
+* Power Query
+* DAX (Data Analysis Expressions)
+* CSV Dataset
+* Data Visualization Techniques
 
 ---
 
-## 📊 Key Factors Analyzed
-- Age Group
-- Gender
-- Department
-- Job Role
-- Salary Slab
-- Years at Company
-- Education Field
-- Job Satisfaction
+# 📂 Dataset Information
+
+The dataset contains employee-related HR information including:
+
+* Employee Age
+* Gender
+* Department
+* Job Role
+* Education Field
+* Monthly Salary
+* Attrition Status
+* Years at Company
+* Job Satisfaction Ratings
 
 ---
 
-## 📈 Dashboard Features
-- KPI Cards
-- Attrition Analysis by Age
-- Attrition Analysis by Salary
-- Attrition by Job Role
-- Attrition by Education
-- Department-wise Filtering
-- Trend Analysis
+# 🧹 Data Cleaning & Transformation
+
+Data preprocessing was performed using Power Query:
+
+* Removed duplicate records
+* Fixed inconsistent values
+* Corrected data types
+* Checked missing values
+* Created salary slab categories
+* Built custom attrition calculations using DAX
 
 ---
 
-## 📌 Key Insights
-## 📌 Key Insights
+# 📊 KPI Metrics
 
-- The overall employee attrition rate is 16.1%, indicating a moderate level of workforce turnover within the organization.
-
-- Employees aged between 26–35 years show the highest attrition count, suggesting that mid-career professionals are more likely to leave the company.
-
-- Laboratory Technicians, Sales Executives, and Research Scientists experience the highest employee attrition among all job roles.
-
-- Employees earning up to 5k salary slab contribute to the majority of attrition cases, highlighting a possible relationship between lower salary levels and employee turnover.
-
-- Employees with shorter tenure (especially during the early years at the company) show higher attrition trends, indicating retention challenges during the initial employment period.
-
-- Life Sciences and Medical education backgrounds account for a significant portion of employee attrition.
-
-- Male employees have a higher attrition count compared to female employees according to the dashboard analysis.
-
-- The dashboard enables department-level analysis through interactive filtering, helping HR teams identify attrition patterns across different business units.
+| KPI                      | Value |
+| ------------------------ | ----- |
+| Total Employees          | 1470  |
+| Total Attrition          | 237   |
+| Attrition Rate           | 16.1% |
+| Average Age              | 37    |
+| Average Salary           | 6.5K  |
+| Average Years at Company | 7.0   |
 
 ---
 
-## 🚀 Project Output
-The final dashboard provides:
-- Interactive HR analytics visualizations
-- Employee attrition insights
-- Department-level filtering
-- Business intelligence for HR decision-making
+# 📈 Dashboard Features
+
+* Attrition Analysis by Age Group
+* Attrition Analysis by Salary Slab
+* Attrition by Job Role
+* Attrition by Education Field
+* Gender-wise Attrition Analysis
+* Attrition Trend by Years at Company
+* Department-wise Interactive Filtering
+* KPI Summary Cards
 
 ---
 
-## 📷 Dashboard Preview
-(Add dashboard screenshot here)
+# 📌 Key Insights
+
+* Employees aged between 26–35 years show the highest attrition count.
+* Laboratory Technicians, Sales Executives, and Research Scientists experience higher attrition compared to other job roles.
+* Most attrition cases belong to employees earning up to 5K salary slab.
+* Employees in the early years of employment show higher attrition trends.
+* Male employee attrition is slightly higher compared to female employees.
+* Life Sciences and Medical education backgrounds contribute to a significant portion of attrition.
+
+---
+
+# 🚀 Business Impact
+
+This dashboard helps HR teams:
+
+* Understand employee turnover patterns
+* Identify high-risk employee groups
+* Improve employee retention strategies
+* Support workforce planning and HR decision-making
+* Make data-driven business decisions
+
+---
+
 
