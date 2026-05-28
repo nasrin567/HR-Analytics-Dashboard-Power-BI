@@ -165,31 +165,6 @@ Created custom measures for:
 
 ---
 
-# 📷 Dashboard Screenshots
-
-## 📍 Overall Dashboard
-
-![Overall Dashboard](Dashboard_Images/hr_dashboard.png)
-
----
-
-## 📍 HR Department Analysis
-
-![HR Analysis](Dashboard_Images/hr_department.png)
-
----
-
-## 📍 Research & Development Analysis
-
-![R\&D Analysis](Dashboard_Images/rd_dashboard.png)
-
----
-
-## 📍 Sales Department Analysis
-
-![Sales Analysis](Dashboard_Images/sales_dashboard.png)
-
----
 
 # 🎯 Project Outcome
 
@@ -205,23 +180,6 @@ The dashboard helps HR professionals:
 
 ---
 
-# 📁 Project Structure
-
-```text
-HR-Analytics-Dashboard/
-│
-├── HR_Analytics.pbix
-├── HR_Analytics.csv
-├── README.md
-│
-├── Dashboard_Images/
-│   ├── hr_dashboard.png
-│   ├── hr_department.png
-│   ├── rd_dashboard.png
-│   └── sales_dashboard.png
-```
-
----
 
 
 # 📚 Learning Outcomes
