@@ -2,40 +2,66 @@
 
 ## 📌 Project Overview
 
-The HR Analytics Dashboard is an interactive business intelligence project developed using Power BI to analyze employee attrition trends within an organization.
+This project focuses on analyzing employee attrition data using **Power BI** to generate meaningful HR insights and interactive business reports.
 
-This project focuses on identifying the major factors affecting employee turnover by analyzing HR data such as employee age, salary, job role, education background, gender, and years at the company. The dashboard provides meaningful insights through KPI cards, charts, and interactive visualizations to support data-driven HR decision-making.
+The dashboard helps analyze:
+
+* Employee attrition trends
+* Department-wise employee turnover
+* Salary impact on attrition
+* Age group analysis
+* Job role attrition patterns
+* Employee tenure trends
+* Gender-based attrition insights
+* Education field analysis
+
+The main objective of this project is to identify the key factors contributing to employee attrition and help HR teams make data-driven decisions for better employee retention.
 
 ---
 
-# 🎯 Problem Statement
+# 🖼 Dashboard Preview
 
-Employee attrition is one of the major challenges faced by organizations as it impacts productivity, workforce stability, and business growth.
+## 🏢 Main HR Analytics Dashboard
 
-The objective of this project is to:
+![HR Analytics Dashboard](Dashboard_Images/hr_dashboard.png)
 
-* Identify the key factors contributing to employee attrition
-* Analyze employee turnover patterns across different departments and job roles
-* Understand the relationship between salary, experience, age, and attrition
-* Provide HR teams with actionable insights for improving employee retention
+---
+
+## 👨‍💼 Human Resources Department Analysis
+
+![HR Department Dashboard](Dashboard_Images/hr_department.png)
+
+---
+
+## 🔬 Research & Development Department Analysis
+
+![R\&D Dashboard](Dashboard_Images/rd_dashboard.png)
+
+---
+
+## 💼 Sales Department Analysis
+
+![Sales Dashboard](Dashboard_Images/sales_dashboard.png)
 
 ---
 
 # 🛠 Tools & Technologies Used
 
-* Power BI Desktop
+* Microsoft Power BI Desktop
 * Power Query
 * DAX (Data Analysis Expressions)
-* CSV Dataset
-* Data Visualization Techniques
+* Microsoft Excel / CSV Dataset
 
 ---
 
-# 📂 Dataset Information
+# 📂 Dataset Used
 
-The dataset contains employee-related HR information including:
+### HR_Analytics.csv
 
-* Employee Age
+The dataset contains employee-related information including:
+
+* Employee ID
+* Age
 * Gender
 * Department
 * Job Role
@@ -43,69 +69,172 @@ The dataset contains employee-related HR information including:
 * Monthly Salary
 * Attrition Status
 * Years at Company
-* Job Satisfaction Ratings
+* Job Satisfaction Rating
 
 ---
 
-# 🧹 Data Cleaning & Transformation
+# 📊 KPI Requirements
 
-Data preprocessing was performed using Power Query:
+The following KPIs were analyzed:
+
+* Total Employees
+* Total Attrition Count
+* Attrition Rate
+* Average Employee Age
+* Average Salary
+* Average Years at Company
+
+---
+
+# 📈 Charts & Visualizations
+
+## Main Dashboard
+
+* KPI Cards
+* Attrition by Education
+* Attrition by Age
+* Attrition by Salary Slab
+* Attrition by Years at Company
+* Attrition by Job Role
+* Attrition by Gender
+
+## Department-Wise Analysis
+
+Interactive department slicer for:
+
+* Human Resources
+* Research & Development
+* Sales
+
+---
+
+# 🧮 Data Analysis & Processing Performed
+
+The following operations were performed during the project:
+
+### ✔ Data Cleaning using Power Query
 
 * Removed duplicate records
 * Fixed inconsistent values
 * Corrected data types
-* Checked missing values
-* Created salary slab categories
-* Built custom attrition calculations using DAX
+* Handled missing values
+* Standardized categorical columns
+
+### ✔ DAX Calculations
+
+Created custom measures for:
+
+* Attrition Count
+* Attrition Rate
+* Average Salary
+* Average Age
+* Employee KPIs
+
+### ✔ Dashboard Development
+
+* Interactive visuals
+* Dynamic filtering
+* Department-wise analysis
+* Business-focused reporting
 
 ---
 
-# 📊 KPI Metrics
+# ⚡ Power BI Features Used
 
-| KPI                      | Value |
-| ------------------------ | ----- |
-| Total Employees          | 1470  |
-| Total Attrition          | 237   |
-| Attrition Rate           | 16.1% |
-| Average Age              | 37    |
-| Average Salary           | 6.5K  |
-| Average Years at Company | 7.0   |
-
----
-
-# 📈 Dashboard Features
-
-* Attrition Analysis by Age Group
-* Attrition Analysis by Salary Slab
-* Attrition by Job Role
-* Attrition by Education Field
-* Gender-wise Attrition Analysis
-* Attrition Trend by Years at Company
-* Department-wise Interactive Filtering
-* KPI Summary Cards
+* Power Query Data Cleaning
+* DAX Measures
+* Interactive Dashboard Design
+* KPI Cards
+* Slicers & Filters
+* Trend Analysis
+* Donut Charts
+* Bar Charts
+* Line Charts
+* Data Visualization
 
 ---
 
-# 📌 Key Insights
+# 📌 Business Insights
 
-* Employees aged between 26–35 years show the highest attrition count.
-* Laboratory Technicians, Sales Executives, and Research Scientists experience higher attrition compared to other job roles.
-* Most attrition cases belong to employees earning up to 5K salary slab.
-* Employees in the early years of employment show higher attrition trends.
-* Male employee attrition is slightly higher compared to female employees.
-* Life Sciences and Medical education backgrounds contribute to a significant portion of attrition.
+* Employees aged **26–35** showed the highest attrition rate.
+* Employees with lower salary slabs had higher chances of leaving.
+* Research & Development and Sales departments experienced major attrition.
+* Employees with fewer years at the company were more likely to leave.
+* Laboratory Technicians and Sales Executives had higher turnover compared to other job roles.
+* Life Sciences and Medical education backgrounds contributed significantly to attrition trends.
 
 ---
 
-# 🚀 Business Impact
+# 📷 Dashboard Screenshots
 
-This dashboard helps HR teams:
+## 📍 Overall Dashboard
 
-* Understand employee turnover patterns
-* Identify high-risk employee groups
-* Improve employee retention strategies
-* Support workforce planning and HR decision-making
-* Make data-driven business decisions
+![Overall Dashboard](Dashboard_Images/hr_dashboard.png)
+
+---
+
+## 📍 HR Department Analysis
+
+![HR Analysis](Dashboard_Images/hr_department.png)
+
+---
+
+## 📍 Research & Development Analysis
+
+![R\&D Analysis](Dashboard_Images/rd_dashboard.png)
+
+---
+
+## 📍 Sales Department Analysis
+
+![Sales Analysis](Dashboard_Images/sales_dashboard.png)
+
+---
+
+# 🎯 Project Outcome
+
+This project demonstrates how Power BI can transform raw HR data into meaningful business insights through interactive dashboards and visual analytics.
+
+The dashboard helps HR professionals:
+
+* Identify high attrition areas
+* Understand employee behavior patterns
+* Improve retention strategies
+* Make informed HR decisions
+* Track workforce trends effectively
+
+---
+
+# 📁 Project Structure
+
+```text
+HR-Analytics-Dashboard/
+│
+├── HR_Analytics.pbix
+├── HR_Analytics.csv
+├── README.md
+│
+├── Dashboard_Images/
+│   ├── hr_dashboard.png
+│   ├── hr_department.png
+│   ├── rd_dashboard.png
+│   └── sales_dashboard.png
+```
+
+---
+
+
+# 📚 Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+* Power BI Dashboard Development
+* Data Cleaning & Transformation
+* DAX Calculations
+* HR Analytics
+* Business Intelligence Reporting
+* Interactive Data Visualization
+* Data-Driven Decision Making
 
 ---
 
